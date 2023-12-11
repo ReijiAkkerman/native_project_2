@@ -4,9 +4,7 @@
         <?php include_once __DIR__ . "/components/common/head.php" ?>
     </head>
     <body class="log">
-        <header>
-            
-        </heder>
+    <?php include_once __DIR__ . "/components/common/header.php" ?>
         <main>
             
         </main>

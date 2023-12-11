@@ -3,6 +3,7 @@
   padding: 0;
   border: none;
   background-color: rgba(0, 0, 0, 0);
+  font-family: Jura;
 }
 
 a {
@@ -11,6 +12,14 @@ a {
 
 li {
   list-style-type: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+svg {
+  fill: #000;
 }
 
 /*# sourceMappingURL=style.css.map */

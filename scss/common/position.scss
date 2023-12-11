@@ -1,0 +1,49 @@
+header.common {
+    display: block;
+    position: relative;
+
+
+    > .Header {
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+
+        > div:first-of-type {
+            display: flex;
+            position: relative;
+            justify-content: start;
+
+            > .Actions {
+                display: flex;
+                position: relative;
+                justify-content: start;
+    
+                > div {
+                    display: flex;
+                    position: relative;
+                    justify-content: start;
+    
+                    > .Search {
+                        display: flex;
+                        position: relative;
+                        justify-content: start;
+                    }
+                }
+            }
+    
+            > .Info {
+                display: flex;
+                position: relative;
+                justify-content: start;
+            }
+        }
+
+
+        > .Links {
+            display: flex;
+            position: relative;
+            justify-content: start;
+            flex-direction: row-reverse;
+        }
+    }
+}

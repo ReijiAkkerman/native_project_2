@@ -1,0 +1,42 @@
+header.common {
+  display: block;
+  position: relative;
+}
+header.common > .Header {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+header.common > .Header > div:first-of-type {
+  display: flex;
+  position: relative;
+  justify-content: start;
+}
+header.common > .Header > div:first-of-type > .Actions {
+  display: flex;
+  position: relative;
+  justify-content: start;
+}
+header.common > .Header > div:first-of-type > .Actions > div {
+  display: flex;
+  position: relative;
+  justify-content: start;
+}
+header.common > .Header > div:first-of-type > .Actions > div > .Search {
+  display: flex;
+  position: relative;
+  justify-content: start;
+}
+header.common > .Header > div:first-of-type > .Info {
+  display: flex;
+  position: relative;
+  justify-content: start;
+}
+header.common > .Header > .Links {
+  display: flex;
+  position: relative;
+  justify-content: start;
+  flex-direction: row-reverse;
+}
+
+/*# sourceMappingURL=position.css.map */
