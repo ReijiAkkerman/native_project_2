@@ -27,7 +27,6 @@ header.common > .Header .Actions .Search {
   border-radius: 15px;
 }
 header.common > .Header .Actions .Search > input {
-  outline: none;
   font-size: 20px;
   padding-left: 5px;
 }

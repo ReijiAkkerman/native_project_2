@@ -10,6 +10,7 @@
 
 a {
     text-decoration: none;
+    color: c.$text-color;
 }
 
 li {
@@ -22,4 +23,8 @@ button {
 
 svg {
     fill: c.$svg-color;
+}
+
+input {
+    outline: none;
 }

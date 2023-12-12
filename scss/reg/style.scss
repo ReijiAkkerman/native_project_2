@@ -1,9 +1,10 @@
 @use '../chunks' as c;
 
-.log {
+.reg {
     > main {
         > form {
             @extend %login-form;
+            margin-top: 150px;
 
             > div {
                 width: 600px;
@@ -12,22 +13,13 @@
                     @extend %login-p;
                 }
 
-                input {
+                > input {
                     @extend %login-input;
                 }
             }
 
             > button {
                 @extend %login-button;
-
-                // &:hover {
-                //     background-color: #ddd;
-                // }
-            }
-
-            > a {
-                text-decoration: underline;
-                font-size: 20px;
             }
         }
     }

@@ -1,4 +1,4 @@
-.log > main > form {
+.reg > main > form {
   border: 1px solid #000;
   border-radius: 20px;
   width: fit-content;
@@ -7,11 +7,11 @@
   gap: 20px;
 }
 
-.log > main > form > div > p {
+.reg > main > form > div > p {
   font-size: 40px;
 }
 
-.log > main > form > div input {
+.reg > main > form > div > input {
   text-align: center;
   line-height: 40px;
   font-size: 30px;
@@ -21,23 +21,22 @@
   border-bottom: 1px solid #000;
 }
 
-.log > main > form > button {
+.reg > main > form > button {
   font-size: 30px;
   border-left: 1px solid #000;
   border-right: 1px solid #000;
   padding: 10px 20px;
   font-weight: bold;
 }
-.log > main > form > button:hover {
+.reg > main > form > button:hover {
   background-color: #ddd;
 }
 
-.log > main > form > div {
-  width: 600px;
+.reg > main > form {
+  margin-top: 150px;
 }
-.log > main > form > a {
-  text-decoration: underline;
-  font-size: 20px;
+.reg > main > form > div {
+  width: 600px;
 }
 
 /*# sourceMappingURL=style.css.map */

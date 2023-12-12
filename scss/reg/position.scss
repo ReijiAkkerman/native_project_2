@@ -1,11 +1,7 @@
 @use '../chunks' as c;
 
-.log {
-    @extend %display;
-
+.reg {
     > main {
-        @extend %display;
-
         > form {
             @extend %flex-start;
             flex-direction: column;
@@ -13,7 +9,6 @@
 
             > div {
                 @extend %flex-between;
-                align-items: center;
             }
         }
     }

@@ -8,6 +8,7 @@
 
 a {
   text-decoration: none;
+  color: #000;
 }
 
 li {
@@ -20,6 +21,10 @@ button {
 
 svg {
   fill: #000;
+}
+
+input {
+  outline: none;
 }
 
 /*# sourceMappingURL=style.css.map */

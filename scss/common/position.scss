@@ -1,3 +1,5 @@
+@use '../chunks' as c;
+
 header.common {
     display: block;
     position: relative;
@@ -9,40 +11,28 @@ header.common {
         justify-content: space-between;
 
         > div:first-of-type {
-            display: flex;
-            position: relative;
-            justify-content: start;
+            @extend %flex-start;
 
             > .Actions {
-                display: flex;
-                position: relative;
-                justify-content: start;
+                @extend %flex-start;
     
                 > div {
-                    display: flex;
-                    position: relative;
-                    justify-content: start;
+                    @extend %flex-start;
     
                     > .Search {
-                        display: flex;
-                        position: relative;
-                        justify-content: start;
+                        @extend %flex-start;
                     }
                 }
             }
     
             > .Info {
-                display: flex;
-                position: relative;
-                justify-content: start;
+                @extend %flex-start;
             }
         }
 
 
         > .Links {
-            display: flex;
-            position: relative;
-            justify-content: start;
+            @extend %flex-start;
             flex-direction: row-reverse;
         }
     }

@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <?php include_once __DIR__ . "/components/common/head.php" ?>
+        <?php include_once __DIR__ . '/components/common/head.php' ?>
     </head>
     <body class="log">
-    <?php include_once __DIR__ . "/components/common/header.php" ?>
+    <?php include_once __DIR__ . '/components/common/header.php' ?>
         <main>
-            
+            <form action="#" method="POST">
+                <div>
+                    <p>Логин</p>
+                    <input type="text">
+                </div>
+                <div>
+                    <p>Пароль</p>
+                    <div>
+                        <input type="password">
+                    </div>
+                </div>
+                <button>Войти</button>
+                <a href="#">Нет аккаунта</a>
+            </form>
         </main>
-        <footer>
-
-        </footer>
     </body>
 </html>
