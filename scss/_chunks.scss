@@ -25,6 +25,11 @@ $text-color: #000;
     justify-content: space-between;
 }
 
+%grid {
+    display: grid;
+    position: relative;
+}
+
 
 
 
@@ -63,3 +68,8 @@ $text-color: #000;
         background-color: #ddd;
     }
 }
+
+
+
+
+
