@@ -6,4 +6,8 @@
 
     class Log extends Page {
         use ViewPage;
+
+        public function login(): void {
+            $mysql = new \mysqli('localhost', );
+        }
     }

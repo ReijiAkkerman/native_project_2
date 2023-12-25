@@ -18,7 +18,7 @@
                     </div>
                 </div>
                 <button>Войти</button>
-                <a href="#">Нет аккаунта</a>
+                <a href="../reg/view">Нет аккаунта</a>
             </form>
         </main>
     </body>
